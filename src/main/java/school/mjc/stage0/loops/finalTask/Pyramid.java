@@ -17,7 +17,8 @@ public class Pyramid {
                 
             }
             else
-                System.out.print(' ');
+                if (j<cathetusLength)
+                    System.out.print(' ');
             System.out.println();
         }
         
